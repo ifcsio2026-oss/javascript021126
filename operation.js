@@ -10,10 +10,18 @@ console.log(n1*n2);
 console.log(n2/n3);
 console.log(n2%n1);
 
+console.log("n1 vaut " + n1);
+
 // l'addition dans differents cas 
-12+12  => 24
+// 12+12  => 24
 // "12"+12 => "1212"  // le number est converti en string
 // "5" * 6 => 30  // le string est converti en number 
 
 // Concatenation = collage de 2 strings
-// "bonjour" + " les amis" 
+ "bonjour" + " les amis" 
+
+ // Gabarit de chaine
+console.log(`la valeur de n1 est ${n1}`);
+console.log(`la valeur de n1+n2 est " + n1); 
+
+
